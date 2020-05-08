@@ -17,4 +17,4 @@
 masscantrigger is a shell script that acts as a wrapper to execute Masscan using the following command:
 masscan -p80,161,443,2075,2076,3000,3306,3366,3868,4000,4040,4044,5000,5432,5673,5900,6000,6443,7077,7080,7443,7447,8000,8080,8081,8181,8089,8880,8888,8983,9000,9091,9443,9999,10000,15672 --open -il $Target_file --banners -oG $Output_file
 
-Usage: sudo ./masscantrigger.sh /<target file/> /<output file/>
+Usage: sudo ./masscantrigger.sh target_file output_file
